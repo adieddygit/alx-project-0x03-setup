@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
 
-  const backgroundColorClass = buttonBackgroundColor ? {
+  const backgroundColorClass = buttonBackgroundColor? {
     red: 'bg-red-500',
     blue: 'bg-blue-500',
     orange: 'bg-orange-500',
